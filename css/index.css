@@ -23,7 +23,7 @@ body{
 
 .btn-work{
     background-image: linear-gradient(to right, #E95841, #E94B63);
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .btn-resume{

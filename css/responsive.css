@@ -74,11 +74,10 @@
 
 
 
-/* @media (max-width:768px){
-    .item-order{
-        order: 1;
+@media (max-width:576px){
+    .btn-work, .btn-resume{
+        padding: 0px 1.5rem;
     }
-    .item-order2{
-        order: 2;
-    }
-} */
+
+
+}

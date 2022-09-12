@@ -72,12 +72,27 @@
     }
 }
 
+@media(min-width: 320px){
+    .btn-cont{
+        width: 50%;  
+        display: flex;
+        flex-direction: row;
+    }
+    .btn-work, .btn-resume{
+         padding: 7px 10px;
+         
+    } 
+}
 
 
-@media (max-width:576px){
+@media(min-width: 420px){
+    .btn-work, .btn-resume{
+        padding: 10px 20px;       
+    }
+}
+
+@media(min-width:576px){
     .btn-work, .btn-resume{
         padding: 0px 1.5rem;
     }
-
-
 }

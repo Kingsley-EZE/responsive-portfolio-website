@@ -1,0 +1,71 @@
+:root{
+    --bgColor: #F9F9F9;
+    --colorPrimary: #E95841;
+    --secondaryPrimary: #E94B63;
+}
+
+body{
+    background-color: var(--bgColor);
+}
+
+.text-color-main{
+    color: var(--colorPrimary);
+}
+
+.shape-line{
+    height: 7px;
+    background-color: var(--colorPrimary); 
+}
+
+.btn-cont{
+    width: 22%;
+}
+
+.btn-work{
+    background-image: linear-gradient(to right, #E95841, #E94B63);
+    white-space: nowrap;
+}
+
+.btn-resume{
+    color: var(--secondaryPrimary);
+    box-shadow: 1px 2px 5px #0000004d;
+}
+
+
+.floating-logo-top{
+    right: 20%;
+    bottom: 10%;
+    box-shadow: 1px 2px 20px #aaaaaa;
+}
+
+.floating-logo-top img{
+    width: 70px;
+}
+
+.btn-get-in-touch{
+    white-space: nowrap;
+}
+
+
+.around-card{
+    border: none;
+    box-shadow: 1px 2px 20px #aaaaaa;
+}
+
+.contact-sec{
+    margin-top: 5rem;
+}
+
+.input-bg{
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+.mini-text{
+    font-size: 13px;
+}
+
+.mini-img{
+    width: 22px;
+}

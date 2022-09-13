@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width:768px){
+@media (min-width:768px) and (max-width: 992px){
     .hero-text-cont{
         padding-top: 35px;
     }
@@ -72,6 +72,12 @@
     }
 }
 
+@media(max-width: 320px){
+     .floating-logo-top{
+        display: none;
+    }
+}
+
 @media(min-width: 320px){
     .btn-cont{
         width: 50%;  
@@ -82,9 +88,6 @@
          padding: 7px 10px;
          
     } 
-    .floating-logo-top{
-        display: none;
-    }
 }
 
 
